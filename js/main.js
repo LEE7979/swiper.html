@@ -27,4 +27,11 @@ $(document).ready(function(){
         }  
         
     })
+    // 토글 버튼 코드
+    var menuToggleBtn = $(".menu-toggle-btn")
+    mainMenu = $(".main-menu1")
+    menuToggleBtn.click(function(){
+        mainMenu.slideToggle()
+    })
+
     })
